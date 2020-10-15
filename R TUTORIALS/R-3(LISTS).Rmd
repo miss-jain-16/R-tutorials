@@ -1,0 +1,39 @@
+```{r}
+#LISTS: R list is the object which contains elements of different types – like strings, numbers, vectors and another list inside it. R list can also contain a matrix or a function as its elements. The list is created using the list() function in R. In other words, a list is a generic vector containing other objects.
+var<-c(1,2,3)
+char_vec<-c("Hadoop","Spark","Flink","Mahout")
+logic_vec<-c(TRUE,FALSE,TRUE,FALSE)
+out<-c(var,char_vec,logic_vec)
+out
+out_list<-list(var, char_vec, logic_vec)
+out_list
+
+list_data <- list("Red", "White", c(1,2,3), TRUE, 22.4)
+print(list_data)
+
+data_list<-list(c("Jan","Feb","Mar"),matrix(c(1,2,3,4,-1,9),nrow=2),list("Red"))
+
+names(data_list) <- c("Monat", "Matrix", "Misc")
+print(data_list)
+
+
+#operations in lists
+var[1]+var[2]
+
+
+list_data[1]<-"Pink"
+print(list_data)
+
+#coversion of list into vector
+int_list<-list(1:5)
+print(int_list)
+vec1<-unlist(int_list)
+print(vec1)
+
+#R predefined lists
+letters
+LETTERS
+month.abb
+month.name
+```
+

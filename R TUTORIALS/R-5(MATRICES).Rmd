@@ -1,0 +1,64 @@
+```{r}
+#MATRICES
+
+#A matrix is a two-dimensional rectangular data set. It can be created using a vector input to the matrix function.
+
+M=matrix(c(1,2,3,4,5,6,6,7,8,9),nrow=2,ncol=3,byrow=TRUE)
+print(M)
+
+M[1,2]
+#To extract particular row
+M[2,]
+
+#To extract particular column
+M[,1]
+
+
+arrang_col <- matrix(c(4:15), nrow = 4, byrow = TRUE)
+arrang_col
+
+
+rows = c("row1", "row2", "row3", "row4")     
+#Creating our character vector of row names
+cols = c("colm1", "colm2", "colm3")         
+#Creating our character vector of column names
+mat <- matrix(c(4:15), nrow = 4, byrow = TRUE, dimnames = list(rows, cols) )   
+#creating our matrix mat and assigning our vectors to dimnames
+print(mat) 
+
+
+mat[2,3]<-20
+mat
+
+new_mat = matrix(1:12, nrow = 3, ncol = 3)
+new_mat
+cbind(new_mat, c(1,2,3))
+rbind(new_mat, c(1,2,3))
+
+new_mat+new_mat
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+```
+
