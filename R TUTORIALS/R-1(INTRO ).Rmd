@@ -1,0 +1,20 @@
+```{r}
+myString <- "Hello, World!"
+print(myString)
+
+if(FALSE){
+  "THIS IS DEMO FOR MULTI-LINE COMMENTS"
+  
+}
+
+```
+
+
+
+
+
+
+
+
+
+

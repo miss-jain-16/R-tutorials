@@ -1,0 +1,72 @@
+```{r}
+#Applications of R Vectors
+#1.Vectors are used in machine learning for principal component analysis. They are extended to eigenvalues and eigen vector which are then used for performing decomposition in vector spaces.
+#When you want to create vector with more than one element, you should use c() function which means to combine the elements into a vector.
+apple <- c(1,2,3)
+print(apple)
+banana<-c("red",1,"apple")
+print(banana)
+print(class(banana))
+#Indexing with Integer Vector
+print(apple[1])
+#Indexing with Character Vector
+x<-c("One"=1,"Two"=2,"Three"=3)
+x["Two"]
+#Indexing with Logic Vector
+a<-c(1,2,3,4,5)
+a[c(TRUE,FALSE,TRUE,FALSE,TRUE)]
+#COMBINING VECTOR IN ARRAY
+N=c(1,2,3,4)
+S=c("megha","sakhsi","lovely","lokesh")
+c(N,S)
+#addition
+a<-c(1,2)
+b<-c(3,4)
+print(a+a)
+#LOGICAL INDEX VECTOR IN ARRAY
+M<-c("A","B","C")
+L<-c(TRUE,FALSE,TRUE)
+M[L]
+#DUPLICATE INDEX
+s = c("aa", "bb", "cc", "dd", "ee")
+s[c(2,3,3)]
+names(s)=c("Megha","SAkshi","Hina","Gauti","piyush")
+s
+k<-c("one"="ipty")
+k
+v1 <- c(4, 5, 6, 7) 
+# display type of vector 
+typeof(v1) 
+
+# by using 'L' we can specify that we want integer values. 
+v2 <- c(1L, 4L, 2L, 5L)  
+# display type of vector 
+typeof(v2) 
+
+X <- c(8, 2, 7, 1, 11, 2) 
+A<-sort(X)
+A
+
+#contain vectors inside vector
+m<-c(X,v2)
+m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+```
+
